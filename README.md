@@ -14,11 +14,3 @@ The Restfull API's which are beign called were tested using postman. And these a
 /deleteByID
 Controller: /Server/src/main/java/com/spring/test/controller
 
-Task 3
-To Run in docker.
-Open terminal
-Go to Server/target
-And run docker build . -t server
-This will create a image of the JAR file.
-Now run the docker-compose.yml using docker-compose up.
-Now using web Browser at localhost:8086 we can use the endpoints.
